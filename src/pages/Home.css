@@ -1,0 +1,137 @@
+.home {
+  background-color: white;
+  color: black;
+  padding: 1rem;
+}
+.home nav ul {
+  list-style: none;
+  padding: 0;
+}
+.home nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+.home nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  .textColor {
+    color: blue; /* Change to your desired color */
+  }
+  .resized-image {
+    width: 10%; /* Scale the image to fit the container */
+    height: 10%; /* Maintain aspect ratio */
+  }
+  .border-text1 {
+    border: 2px solid rgb(149, 10, 218);
+    padding: 0px;
+    /*display: inline-block;*/
+    border-radius: 35%;
+    line-height: 10px;
+    text-align: justify;
+    width: 86px;
+  }
+  .border-text4 {
+    border: 2px solid rgb(149, 10, 218);
+    padding: 15px;
+    display: inline-block;
+    border-radius: 35%;
+    line-height: 30px;
+    text-align: center;
+    width: 85px;
+  }
+.border-text2 {
+  display: flex; /* Use flexbox layout */
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center items horizontally */
+  text-align: center; /* Center text inside elements */
+  .center-align {
+    margin: 0;
+  }
+    background-image: url('../assets/f.png');
+    background-color: blue;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 12%;
+    padding: 12px;
+    .border-text5 {
+      display: flex;
+      background-color: black;
+      background-size: cover;
+      text-align: center;
+      align-items: center;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 110%;
+      border-radius: 36px;
+      .textColor2 {
+        color: white; 
+      }
+      display: flex;
+      justify-content: center; 
+    }
+}
+
+  .border-text6 {
+    display: flex;
+    gap: 0px;
+    background-size: contain;
+    background-position: center;
+    .image-container {
+      text-align: center; 
+    }
+  }
+
+  .border-text3 {
+    background-image: url('../assets/d.png');
+    background-size: contain;
+    background-position: center;
+    width: 100%; 
+    height: 120%;
+  }
+  .mailbox-link {
+    text-decoration: none; /* Remove underline from link */
+    color: inherit;        /* Inherit text color from parent (optional) */
+  }
+
+  
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 10px;
+  }
+   .text {
+    margin: 0;
+  }
+.center-align {
+    text-align: center;
+  }
+.right-align {
+  text-align: right;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+}
+.image {
+  margin-left: 5px;
+}
+ .text {
+  margin: -10;
+  margin-right: auto;
+  margin-bottom: 0%;
+  text-align: left;
+}

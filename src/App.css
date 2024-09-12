@@ -1,5 +1,54 @@
 .App {
   text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+
+.left-align {
+  text-align: left;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.right-align {
+  text-align: right; 
+}
+
+.page-container {
+  /* Any additional styles for the container */
+  padding: 20px; /* Example padding */ 
+}
+.left-paragraph {
+  text-align: left; /* Aligns the text to the left */
+  margin: 0; /* Adjust margin if needed */
+  padding: 0; /* Adjust padding if needed */
+}
+
+header, footer {
+  background-color: #282c34;
+  color: white;
+  padding: 1rem;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
 }
 
 .App-logo {

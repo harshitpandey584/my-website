@@ -1,0 +1,35 @@
+.footer {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    width: 100%;
+    padding: 10px;
+  } 
+  .grid-item-left {
+    justify-self: start;
+  } 
+  .grid-item-center {
+    justify-self: center;
+  }
+  .grid-item-right {
+    justify-self: end;
+  }
+
+
+
+  .left-align {
+    text-align: left;
+  }
+  .right-align {
+    text-align: right;
+  }
+  .center-align {
+    text-align: center;
+  }

@@ -1,0 +1,60 @@
+.header {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+  }
+  .header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  .header nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  .header nav ul li a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .left-align {
+    text-align: left;
+  }
+  .right-align {
+    text-align: right;
+  }
+  .center-align {
+    text-align: center;
+  }
+
+  .border-text {
+    border: 2px solid rgb(248, 6, 244);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 30%;
+    line-height: 0px;
+    width: auto;
+  }
+  .textColor1 {
+    color: rgb(240, 17, 233); 
+  }
+
+
+  .resized-image {
+    width: 10%; 
+    height: 10%; 
+  }
+  .right-align {
+    text-align: right; 
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-left: 5px;
+  }
+   .text {
+    margin: -10;
+    margin-right: auto;
+  }
